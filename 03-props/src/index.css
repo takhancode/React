@@ -41,7 +41,12 @@ html, body {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-
+.card img {
+  width: 140px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
 .card button {
   padding: 10px 18px;
   background-color: #ffffff;
