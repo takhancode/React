@@ -1,0 +1,158 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: #f1f1f1;
+}
+
+.outer-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-container {
+  width: 90%;
+  max-width: 320px;
+}
+
+.job-card {
+  background: #fff;
+  width: 100%;
+  min-height: 345px;
+  padding: 25px;
+  border-radius: 30px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.10);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Top section */
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-logo {
+  width: 52px;
+  height: 52px;
+  border: 3px solid #e5e5e5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.company-logo span {
+  width: 37px;
+  height: 37px;
+  background: #111;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-smile {
+  position: absolute;
+  width: 23px;
+  height: 9px;
+  border-bottom: 2px solid #ff9900;
+  border-radius: 50%;
+  bottom: 10px;
+}
+
+.save-btn {
+  background: #fff;
+  border: 1px solid #eee;
+  color: #666;
+  padding: 7px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/* Job information */
+.job-info {
+  margin-top: 18px;
+}
+
+.company-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 7px;
+}
+
+.company-name h3 {
+  font-size: 16px;
+}
+
+.company-name span {
+  color: #999;
+  font-size: 11px;
+}
+
+.job-info h2 {
+  font-size: 19px;
+  margin-bottom: 12px;
+}
+
+.job-tags {
+  display: flex;
+  gap: 6px;
+}
+
+.job-tags span {
+  background: #eeeeee;
+  color: #444;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+/* Bottom section */
+.card-footer {
+  border-top: 1px solid #eee;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.salary-info h3 {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.salary-info p {
+  color: #999;
+  font-size: 11px;
+}
+
+.apply-btn {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background: #333;
+}
